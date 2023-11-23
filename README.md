@@ -1,1 +1,15 @@
-# FireApp
+# :gb: FireApp
+
+Welcome to **FireApp**, a Distributed System for Fire Detection. This project is part of my Bachelor's Thesis in Computer Engineering at the Autonomous University of Madrid. You can obtain a copy of the complete thesis at the following [link](https://www.dropbox.com/scl/fi/huykp3ft5zm3b3pr3rv0w/TFG_JuanLuisSanzCalvar-firmado.pdf?rlkey=2lr3aahkaeyz5zimd1kkh9uda&dl=0), where the entire process, life cycle, technologies, and operation of the system are explained in great detail.
+
+It is important to read this document to understand its functionality and context, as it is not a project aimed at the general public but rather a specific implementation. The code in this public repository is in its final version, without the commit history, as it posed a risk to the security of the application and the privacy of certain sensitive data.
+
+For security reasons, the project is currently **private and inaccessible** because a complete demonstration requires various prerequisites, including having users with high privileges, known as "Administrators," who could put at risk the data stored in databases and the operation of the application. These administrators are necessary to verify the functionality, as they encompass the majority of the system's functionality. Nevertheless, in the thesis document accessible from the link in the first paragraph, you will find numerous screenshots and all the necessary details. If you are interested in a demo, please contact me via [email](mailto:juanluis.sanzc@gmail.com).
+
+# :es: FireApp
+
+Bienvenido a **FireApp**, un Sistema Distribuido para la Detección de Incendios. Este proyecto forma parte de mi Trabajo de Fin de Grado del Grado en Ingeniería Informática en la Universidad Autónoma de Madrid. En el siguiente [enlace](https://www.dropbox.com/scl/fi/huykp3ft5zm3b3pr3rv0w/TFG_JuanLuisSanzCalvar-firmado.pdf?rlkey=2lr3aahkaeyz5zimd1kkh9uda&dl=0) se puede obtener una copia del trabajo completo, donde se explica muy detalladamente todo el proceso, ciclo de vida, tecnologías y funcionamiento del sistema.
+
+Es importante leer este documento para comprender su funcionamiento y contexto, ya que no es un proyecto orientado al público general, si no que es una implementación particular. El código que se encuentra en este repositorio público es la versión final, sin el historial de _commits_, ya que ponía en riesgo la seguridad de la aplicación y la privacidad de ciertos datos sensibles.
+
+Por seguridad, el proyecto ahora mismo es **privado e inaccesible**, ya que para hacer una demostración completa se necesitan varios requisitos, entre ellos disponer de usuarios con altos privilegios, los llamados "Administradores", que podrían poner en riesgo los datos almacenados en las bases de datos y el funcionamiento de la aplicación. Estos administradores son necesarios para comprobar el funcionamiento, ya que en ellos reside la mayor parte de la funcionalidad. De todas formas, en el documento del trabajo, accesible desde el enlace del primer párrafo, se encuentran muchas capturas y todos los detalles necesarios. En caso de querer una demo, por favor, contáctame en [mi correo](mailto:juanluis.sanzc@gmail.com).

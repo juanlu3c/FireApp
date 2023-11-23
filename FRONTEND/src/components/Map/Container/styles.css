@@ -1,0 +1,545 @@
+.customContainer {
+  width: 72.5vw;
+  height: 24.2vw;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../../../assets/mapassets/empty.png);
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.userLocationDot {
+  height: 2.5vw;
+  width: 2.5vw;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: auto;
+
+  z-index: 999;
+}
+
+.locationDotImg {
+  margin-top: 1.2vw;
+  margin-left: -1.29vw;
+  height: 2.5vw;
+  width: 2.5vw;
+}
+
+.extraDotLabel {
+  position: relative;
+  bottom: 25px;
+  text-align: center;
+  font-size: small;
+  color: inherit;
+}
+
+.extraDot1 {
+  visibility: hidden;
+  height: 1.1vw;
+  width: 1.1vw;
+  background-color: rgb(9, 243, 91);
+  color: rgb(9, 243, 91);
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 998;
+}
+
+.extraDot2 {
+  visibility: hidden;
+  height: 1.1vw;
+  width: 1.1vw;
+  background-color: rgb(255, 36, 87);
+  color: rgb(255, 36, 87);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 997;
+}
+
+.extraDot3 {
+  visibility: hidden;
+  height: 1.1vw;
+  width: 1.1vw;
+  background-color: rgb(172, 99, 255);
+  color: rgb(172, 99, 255);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 996;
+}
+
+.extraDot4 {
+  visibility: hidden;
+  height: 1.1vw;
+  width: 1.1vw;
+  background-color: rgb(243, 243, 9);
+  color: rgb(243, 243, 9);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 995;
+}
+
+.extraDot5 {
+  visibility: hidden;
+  height: 1.1vw;
+  width: 1.1vw;
+  background-color: rgb(243, 9, 173);
+  color: rgb(243, 9, 173);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 994;
+}
+
+.fire {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: auto;
+  justify-content: center;
+
+  z-index: 993;
+}
+
+.fireImg {
+  top: -1.2vw;
+  left: auto;
+  height: 3.2vw;
+  position: relative;
+}
+
+.fireImgAbout {
+  height: 80px;
+  width: 80px;
+  position: relative;
+}
+
+.alarmButton {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 50%;
+  position: absolute;
+
+  left: 56.4vw;
+  bottom: 18vw;
+  top: auto;
+  justify-content: center;
+
+  z-index: 992;
+}
+
+.alarmButtonImg {
+  height: 4vw;
+  width: 4vw;
+  position: relative;
+}
+
+.alarmButtonImgAbout {
+  margin-left: -1rem;
+  height: 90px;
+  width: 90px;
+  position: relative;
+}
+
+.alarmDetector {
+  height: 3.5vw;
+  width: 3.5vw;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+
+  left: -1.28vw;
+  bottom: 10.3vw;
+  top: auto;
+  justify-content: center;
+
+  z-index: 992;
+}
+
+.alarmDetectorImg {
+  height: 3.5vw;
+  width: 3.5vw;
+  position: relative;
+}
+
+.alarmDetectorImgAbout {
+  margin-left: -0.5rem;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  transform: rotate(90deg);
+}
+
+.sector1arrow {
+  position: absolute;
+  margin-top: 3.3vw;
+  margin-left: 0.4vw;
+  z-index: 992;
+}
+
+.sector1arrowImg {
+  height: 9.2vw;
+  width: auto;
+}
+
+.sector2arrow {
+  position: absolute;
+  margin-top: 3.24vw;
+  margin-left: 13.6vw;
+  z-index: 992;
+}
+
+.sector2arrowImg {
+  height: 9.2vw;
+  width: auto;
+}
+
+.sector3arrow {
+  position: absolute;
+  margin-top: 11.6vw;
+  margin-left: 0.5vw;
+  z-index: 992;
+}
+
+.sector3arrowImg {
+  height: 9.2vw;
+  width: auto;
+}
+
+.sector4arrow {
+  position: absolute;
+  margin-top: 11.6vw;
+  margin-left: 13.7vw;
+  z-index: 992;
+}
+
+.sector4arrowImg {
+  height: 9.2vw;
+  width: auto;
+}
+
+.sector11arrow {
+  position: absolute;
+  margin-top: 6.3vw;
+  margin-left: 35.38vw;
+  z-index: 992;
+}
+
+.sector11arrowImg {
+  transform: rotate(180deg);
+  height: 6vw;
+  width: auto;
+}
+
+.sector5arrow {
+  position: absolute;
+  margin-top: 11.8vw;
+  margin-left: 29.35vw;
+  z-index: 992;
+}
+
+.sector5arrowImg {
+  height: 5.5vw;
+  width: auto;
+}
+
+.sector10arrow {
+  position: absolute;
+  margin-top: 11.8vw;
+  margin-left: 35.35vw;
+  z-index: 992;
+}
+
+.sector10arrowImg {
+  height: 5.5vw;
+  width: auto;
+}
+
+.sector6arrow {
+  position: absolute;
+  margin-left: 43.68vw;
+  margin-top: 3.3vw;
+  z-index: 992;
+}
+
+.sector6arrowImg {
+  height: 9.2vw;
+  width: auto;
+}
+
+.sector7arrow {
+  position: absolute;
+  margin-left: 56.9vw;
+  margin-top: 3.3vw;
+  z-index: 992;
+}
+
+.sector7arrowImg {
+  height: 9.2vw;
+  width: auto;
+}
+
+.sector8arrow {
+  position: absolute;
+  margin-top: 11.6vw;
+  margin-left: 43.8vw;
+  z-index: 992;
+}
+
+.sector8arrowImg {
+  height: 9.2vw;
+  width: auto;
+}
+
+.sector9arrow {
+  position: absolute;
+  margin-top: 11.6vw;
+  margin-left: 57vw;
+  z-index: 992;
+}
+
+.sector9arrowImg {
+  height: 9.2vw;
+  width: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .customContainer {
+    /*
+      width: 72.5vw;
+      height: 24.2vw;
+      */
+    width: 93vw;
+    height: 30vw;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../../../assets/mapassets/empty.png);
+    background-size: 100% 100%;
+    position: relative;
+  }
+
+  .sector1arrow {
+    position: absolute;
+    margin-top: 4vw;
+    margin-left: 1.1vw;
+    z-index: 992;
+  }
+
+  .sector1arrowImg {
+    height: 11.37vw;
+    width: auto;
+  }
+
+  .sector2arrow {
+    position: absolute;
+    margin-top: 4vw;
+    margin-left: 17.45vw;
+    z-index: 992;
+  }
+
+  .sector2arrowImg {
+    height: 11.37vw;
+    width: auto;
+  }
+
+  .sector3arrow {
+    position: absolute;
+    margin-top: 14.2vw;
+    margin-left: 1.3vw;
+    z-index: 992;
+  }
+
+  .sector3arrowImg {
+    height: 11.37vw;
+    width: auto;
+  }
+
+  .sector4arrow {
+    position: absolute;
+    margin-top: 14.2vw;
+    margin-left: 17.6vw;
+    z-index: 992;
+  }
+
+  .sector4arrowImg {
+    height: 11.37vw;
+    width: auto;
+  }
+
+  .sector11arrow {
+    position: absolute;
+    margin-top: 8.6vw;
+    margin-left: 45.53vw;
+    z-index: 992;
+  }
+
+  .sector11arrowImg {
+    transform: rotate(180deg);
+    height: 6.8vw;
+    width: auto;
+  }
+
+  .sector5arrow {
+    position: absolute;
+    margin-top: 14.8vw;
+    margin-left: 38vw;
+    z-index: 992;
+  }
+
+  .sector5arrowImg {
+    height: 6.8vw;
+    width: auto;
+  }
+
+  .sector10arrow {
+    position: absolute;
+    margin-top: 14.8vw;
+    margin-left: 45.4vw;
+    z-index: 992;
+  }
+
+  .sector10arrowImg {
+    height: 6.8vw;
+    width: auto;
+  }
+
+  .sector6arrow {
+    position: absolute;
+    margin-left: 56.7vw;
+    margin-top: 4vw;
+    z-index: 992;
+  }
+
+  .sector6arrowImg {
+    height: 11.37vw;
+    width: auto;
+  }
+
+  .sector7arrow {
+    position: absolute;
+    margin-left: 73vw;
+    margin-top: 3.965vw;
+    z-index: 992;
+  }
+
+  .sector7arrowImg {
+    height: 11.37vw;
+    width: auto;
+  }
+
+  .sector8arrow {
+    position: absolute;
+    margin-top: 14.2vw;
+    margin-left: 56.8vw;
+    z-index: 992;
+  }
+
+  .sector8arrowImg {
+    height: 11.37vw;
+    width: auto;
+  }
+
+  .sector9arrow {
+    position: absolute;
+    margin-top: 14.2vw;
+    margin-left: 73.1vw;
+    z-index: 992;
+  }
+
+  .sector9arrowImg {
+    height: 11.37vw;
+    width: auto;
+  }
+
+  .alarmButton {
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    position: absolute;
+
+    left: 71.8vw;
+    bottom: 23.5vw;
+    top: auto;
+    justify-content: center;
+
+    z-index: 992;
+  }
+
+  .alarmButtonImg {
+    height: 6vw;
+    width: 6vw;
+    position: relative;
+  }
+
+  .alarmDetector {
+    height: 3.5vw;
+    width: 3.5vw;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+
+    left: -1.28vw;
+    bottom: 14vw;
+    top: auto;
+    justify-content: center;
+
+    z-index: 992;
+  }
+
+  .alarmDetectorImg {
+    height: 4.5vw;
+    width: 4.5vw;
+    position: relative;
+  }
+}
